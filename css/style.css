@@ -1,0 +1,36 @@
+.flexbox{
+	display: flex;
+	flex-wrap: wrap;
+}
+.space-around{
+	justify-content: space-around;
+}
+.space-between{
+	justify-content: space-between;
+}
+.form{
+	margin-top:  ;
+	
+	padding: 30px;
+	text-align: center;
+}
+.form img{
+	border-radius: 50%;
+	max-height: 100%;
+	border: solid;
+}
+.form label{
+	
+	text-align: center;
+	padding: 15px 40px;
+	color: #f2f2f2;
+	background-color: blue;
+	border-radius: 30px;
+
+	display: inline-block;
+	margin: 10px;
+}
+.form input[type="submit"]{
+	width: 100%;
+	margin-top: 0px; 
+}
